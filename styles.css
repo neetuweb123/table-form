@@ -1,0 +1,64 @@
+
+
+table, th{
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 8px;
+}
+td{
+    border: 1px solid blue;
+    padding: 8px;
+}
+caption{
+    font-size: 30px;
+    font-weight: 900;
+    margin: 5px;
+}
+
+.verticl{
+    display: block;
+    text-align: center;
+}
+
+.time{
+    background-color:rgba(51, 147, 48, 0.825);
+}
+.lab{
+    background-color: aqua;
+}
+.weeks{
+    background-color: rgb(218, 32, 32);
+}
+
+
+
+/***************** Liste element start ******************/
+.upper-rom{
+    list-style-type: upper-roman;
+}
+.upper-alpha{
+    list-style-type: upper-alpha;
+}
+.lower-roman{
+    list-style-type: lower-roman;
+}
+.lower-alpha{
+    list-style-type: lower-alpha;
+}
+
+.box{
+    background-color: #a9f3da;
+    padding: 20px;
+    width:23%;
+    height: 100%;
+}
+
+.list{
+    padding-left: 100px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
